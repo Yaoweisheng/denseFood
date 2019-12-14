@@ -34,7 +34,7 @@ ap.add_argument("-r", "--restore_from", required=False,
 
 args = vars(ap.parse_args())
 
-# Arguments
+# fff Arguments
 data_dir = args["data_dir"]
 model_dir = args["model_dir"]
 restore_from = args["restore_from"]
